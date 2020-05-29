@@ -1,0 +1,4 @@
+resources:
+  #Your deloyments [services and secrets ....] name are here.
+  - secrets.yaml
+  - wordpress-deployment.yaml

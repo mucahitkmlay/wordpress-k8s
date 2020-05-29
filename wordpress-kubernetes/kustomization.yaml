@@ -1,0 +1,10 @@
+secretGenerator:
+  #Your secrets name are here.
+- name: mysql-pass
+  literals:
+  #You can change the password if you want.
+  - password=WordPress1!
+resources:
+  #Your deployments name are here.
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
